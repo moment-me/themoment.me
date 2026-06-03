@@ -15,7 +15,7 @@
   * { box-sizing: border-box; }
 
   #EnvelopeGate { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; cursor: pointer; display: flex; flex-direction: column; background: #79001d; transition: background 0.4s ease; overflow: hidden; }
-  .env-part { width: 100%; height: 50vh; overflow: hidden; transition: transform 1s ease-in-out; }
+  .env-part { width: 100%; flex: 1 1 50%; min-height: 0; overflow: hidden; transition: transform 1s ease-in-out; }
   .env-seal { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 130px; transition: opacity 0.4s; animation: sealWiggle 2.5s ease-in-out infinite; }
   .is-open .env-top { transform: translateY(-100%); }
   .is-open .env-bottom { transform: translateY(100%); }
@@ -236,7 +236,7 @@
       <img src="հարսի%20տուն.svg" alt="Bride's House">
       <span>12:00</span>
       <h4 id="event1-title">Հարսի տուն</h4>
-      <a class="map-link" href="https://maps.google.com/?q=Ձորաղբյուր+3-րդ+թաղամաս+տուն+11" onclick="openMap(event,this)">
+      <a class="map-link" href="https://maps.app.goo.gl/aDBAdATyZ1Eb9LbE8" onclick="openMap(event,this)">
         <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="#C9A96A"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
         <span class="map-text" id="map-btn-1">Քարտեզ</span>
       </a>
@@ -284,14 +284,14 @@
   </div>
 
   <div class="final-section">
-    <img src="hero2.webp" class="final-img" alt="">
+    <img src="hero2.png" class="final-img" alt="">
   </div>
 
   <div class="rsvp-section">
     <h3 class="rsvp-title">RSVP</h3>
     <p class="rsvp-subtitle" id="rsvp-deadline">Խնդրում ենք հաստատել Ձեր ներկայությունը մինչև Հուլիսի 25-ը</p>
     <div class="rsvp-card">
-      <form id="rsvpForm" action="https://formsubmit.co/avet2006sargsyan@gmail.com" method="POST">
+      <form id="rsvpForm" action="https://formsubmit.co/bareghamian.alvard@gmail.com" method="POST">
         <input type="hidden" name="_subject" value="New Wedding RSVP — Avetiq & Manan">
         <input type="hidden" name="_template" value="table">
         <input type="hidden" name="_captcha" value="false">
@@ -514,7 +514,7 @@ var rsvpForm = document.getElementById('rsvpForm');
 if (rsvpForm) {
   rsvpForm.addEventListener('submit', function(e) {
     e.preventDefault();
-    fetch('https://formsubmit.co/ajax/avet2006sargsyan@gmail.com', {
+    fetch('https://formsubmit.co/ajax/bareghamian.alvard@gmail.com', {
       method: 'POST', body: new FormData(rsvpForm), headers: { 'Accept': 'application/json' }
     }).then(function(res) {
       if (res.ok) {
