@@ -1,0 +1,677 @@
+<!DOCTYPE html>
+<html lang="hy">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<meta name="theme-color" content="#85000B">
+<title>Ավետիք և Մանան</title>
+<meta name="description" content="Սիրով հրավիրում ենք Ձեզ ներկա գտնվելու մեր հարսանյաց արարողությանը — Օգոստոսի 2, 2026" />
+<link rel="canonical" href="https://themoment.me/Avetik-Manan/" />
+<link rel="icon" type="image/png" href="https://themoment.me/Avetik-Manan/seal.png" />
+<link rel="apple-touch-icon" href="https://themoment.me/Avetik-Manan/seal.png" />
+
+<!-- Open Graph (Facebook, WhatsApp, Instagram, LinkedIn, Telegram, iMessage, Discord, Slack) -->
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://themoment.me/Avetik-Manan/" />
+<meta property="og:title" content="Ավետիք &amp; Մանան" />
+<meta property="og:description" content="Սիրով հրավիրում ենք Ձեզ ներկա գտնվելու մեր հարսանյաց արարողությանը — Օգոստոսի 2, 2026" />
+<meta property="og:site_name" content="Ավետիք &amp; Մանան" />
+<meta property="og:locale" content="hy_AM" />
+<meta property="og:locale:alternate" content="ru_RU" />
+<meta property="og:locale:alternate" content="en_US" />
+<meta property="og:image" content="https://themoment.me/Avetik-Manan/preview.png" />
+<meta property="og:image:secure_url" content="https://themoment.me/Avetik-Manan/preview.png" />
+<meta property="og:image:type" content="image/png" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="1592" />
+<meta property="og:image:alt" content="Ավետիք և Մանան - Հարսանյաց հրավեր" />
+
+<!-- Twitter / X -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:url" content="https://themoment.me/Avetik-Manan/" />
+<meta name="twitter:title" content="Ավետիք &amp; Մանան" />
+<meta name="twitter:description" content="Սիրով հրավիրում ենք Ձեզ ներկա գտնվելու մեր հարսանյաց արարողությանը — Օգոստոսի 2, 2026" />
+<meta name="twitter:image" content="https://themoment.me/Avetik-Manan/preview.png" />
+<meta name="twitter:image:alt" content="Ավետիք և Մանան - Հարսանյաց հրավեր" />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Assistant:wght@300;400&family=Great+Vibes&family=Marck+Script&family=Pacifico&family=Caveat:wght@400;600&display=swap" rel="stylesheet">
+
+<style>
+  html, body { margin: 0; padding: 0; width: 100%; background: #ffffff !important; font-family: ui-rounded; overflow-x: hidden; }
+  * { box-sizing: border-box; }
+
+  #EnvelopeGate { position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 9999; cursor: pointer; display: flex; flex-direction: column; background: #85000B; transition: background 0.4s ease; overflow: hidden; }
+  .env-part { width: 100%; flex: 1 1 50%; min-height: 0; overflow: hidden; transition: transform 1s ease-in-out; }
+  .env-seal { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 130px; height: 130px; object-fit: contain; transition: opacity 0.4s; animation: sealWiggle 2.5s ease-in-out infinite; }
+  .is-open .env-top { transform: translateY(-100%); }
+  .is-open .env-bottom { transform: translateY(100%); }
+  .is-open .env-seal { opacity: 0; }
+
+  .content-wrapper { padding-top: 0; text-align: center; width: 100%; padding-left: 16px; padding-right: 16px; box-sizing: border-box; background: #ffffff; }
+
+  .intro-greeting { font-family: 'Great Vibes', cursive; font-size: xxx-large; color: #85000B; margin: 24px 0 16px; font-weight: 400; line-height: 1.15; text-align: center; letter-spacing: 0.5px; }
+  :lang(hy) .intro-greeting { font-family: 'Marck Script', 'Pacifico', 'Caveat', cursive; font-size: 18px; letter-spacing: 1px; font-weight: 500; }
+  :lang(en) .intro-greeting, :lang(ru) .intro-greeting { font-size: 48px; }
+  .elegant-text { font-family: ui-rounded; font-style: normal; font-size: 17px; color: #000; line-height: 1.8; margin-bottom: 45px; margin-left: 0; margin-right: 0; }
+
+  .calendar-card { max-width: 380px; margin: 0 auto 70px; width: 100%; box-sizing: border-box; }
+  .calendar-title { font-family: 'Playfair Display', serif; font-size: xx-large; margin: 0 0 18px 0; color: #85000B; font-weight: normal; }
+  .calendar-grid { display: flex; justify-content: center; align-items: center; gap: 10px; }
+  .calendar-grid .cal-day { font-family: ui-rounded, -apple-system, BlinkMacSystemFont, sans-serif; font-size: x-large; color: #000; width: 62px; height: 62px; display: flex; align-items: center; justify-content: center; border: 1px solid #c4a0a8; border-radius: 14px; background: #fff; font-weight: 400; line-height: 1; text-align: center; font-variant-numeric: tabular-nums; }
+  .save-the-date { border: 2px solid #85000B !important; background: #fdf0f2 !important; width: 78px !important; height: 78px !important; font-size: xx-large !important; border-radius: 16px !important; }
+
+  .timeline-title { font-family: 'Playfair Display', serif; font-size: xx-large; margin: 55px 0 25px 0; color: #85000B; font-weight: normal; text-align: center; }
+  #SnakeBox { position: relative; width: calc(100% - 40px); max-width: 450px; height: 620px; margin: 20px auto 0; padding: 0 10px; box-sizing: border-box; }
+  #snakeSvg { position: absolute; top: 0; left: 0; width: 100%; overflow: visible; z-index: 1; }
+  #heart-dot { position: absolute; z-index: 10; pointer-events: none; width: 32px; height: 32px; transform: translate(-50%, -50%); }
+  #heart-dot svg { width: 100%; height: 100%; display: block; }
+  .wed-event { position: absolute !important; width: 42% !important; max-width: 180px !important; z-index: 5; }
+  .wed-event.left  { left: 2% !important; right: auto !important; text-align: left; }
+  .wed-event.right { right: -10% !important; left: auto !important; text-align: left; }
+  .wed-event img { width: 60px !important; height: 60px !important; max-width: 60px !important; object-fit: contain !important; display: block !important; margin: 0 0 8px 0 !important; }
+  .wed-event h4 { margin: 4px 0; font-family: 'Playfair Display', serif; font-size: medium; font-weight: normal; color: #000; white-space: normal; word-break: break-word; line-height: 1.3; }
+  .wed-event > span { color: #000; font-weight: 300; font-size: large; font-family: ui-rounded; display: block; }
+  .wed-event a.map-link .map-text { font-size: x-small; color: #85000B; font-family: 'Assistant', sans-serif; letter-spacing: 0.5px; }
+  .wed-event a.map-link { display: flex; align-items: center; gap: 4px; margin-top: 8px; font-family: 'Assistant', sans-serif; font-size: x-small; color: #85000B; text-decoration: none; letter-spacing: 0.5px; }
+
+  .location-section { position: relative; width: 100%; max-width: 480px; margin: -115px auto 55px; }
+  .location-heart { position: absolute; top: -20px; left: 50%; transform: translateX(-50%); width: 50px; height: 50px; background: #fff; border-radius: 50%; display: flex; align-items: center; justify-content: center; z-index: 20; box-shadow: 0 2px 12px rgba(133,0,11,0.08); }
+  .location-heart svg { width: 28px; height: 28px; display: block; }
+  .location-frame-wrap { position: relative; width: 100%; }
+  .location-frame-img { width: 100%; height: auto; display: block; pointer-events: none; }
+  .location-content {
+    position: absolute;
+    top: 22%; bottom: 22%; left: 14%; right: 14%;
+    display: flex; flex-direction: column;
+    align-items: center; justify-content: center;
+    text-align: center;
+    overflow: visible;
+  }
+  .location-content > * { width: 100%; text-align: center; }
+  .location-title { font-family: 'Playfair Display', serif; font-size: x-small; color: #fff; margin: 0 0 5px; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.85; font-weight: 400; line-height: 1; }
+  .location-time { font-family: 'Playfair Display', serif; font-size: x-large; color: #fff; margin: 0 0 5px; line-height: 1; font-weight: 400; }
+  .location-name { font-family: 'Playfair Display', serif; font-size: medium; color: #fff; margin: 0 0 10px; line-height: 1.25; font-weight: 400; }
+  .location-map-btn { display: inline-block; font-family: ui-rounded; font-size: x-small; letter-spacing: 2px; text-transform: uppercase; color: #fff; text-decoration: none; padding: 3px 18px; border: none; background: transparent; transition: opacity 0.2s; }
+  .location-map-btn:hover { opacity: 0.75; }
+  @media (max-width: 380px) {
+    .location-content { top: 20%; bottom: 20%; left: 15%; right: 15%; padding-top: clamp(6px, 6%, 20px); }
+    .location-title { font-size: xx-small; letter-spacing: 1px; margin-bottom: 3px; }
+    .location-time { font-size: large; margin-bottom: 3px; }
+    .location-name { font-size: small; margin-bottom: 8px; line-height: 1.2; }
+    .location-map-btn { font-size: xx-small; padding: 3px 14px; letter-spacing: 1.5px; }
+  }
+
+  .couple-hero { width: 100vw; max-width: 100vw; margin: 0 0 40px -20px; position: relative; aspect-ratio: 4 / 5; overflow: hidden; }
+  .couple-hero img { width: 100% !important; height: 100% !important; display: block !important; object-fit: cover !important; object-position: center !important; border-radius: 0 !important; }
+  @media (min-width: 601px) { .couple-hero { aspect-ratio: 16 / 10; } .couple-hero img { object-position: center !important; } }
+
+  .couple-names { font-family: 'Great Vibes', cursive; font-size: xxx-large; color: #85000B; text-align: center; margin: 24px 0 20px; font-weight: 400; line-height: 1.2; letter-spacing: 0.5px; white-space: nowrap; }
+  :lang(hy) .couple-names { font-family: 'Marck Script', 'Pacifico', 'Caveat', cursive; font-size: 38px; letter-spacing: 1px; font-weight: 500; }
+  :lang(en) .couple-names, :lang(ru) .couple-names { font-size: 58px; }
+  :lang(en) .couple-names { letter-spacing: 3.5px; }
+  .couple-names-divider { display: block; width: 60px; height: 1px; background: #85000B; margin: 12px auto 30px; opacity: 0.3; }
+
+  .final-section { position: relative; width: 100%; max-width: 450px; margin: 55px auto 55px; }
+  .final-section img.final-img { width: 100% !important; height: auto !important; display: block !important; border-radius: 12px; }
+
+  .countdown-section { width: 100%; background: transparent; padding: 0; text-align: center; margin: 45px auto; box-sizing: border-box; overflow: hidden; }
+  .countdown-title { font-family: 'Playfair Display', serif; font-size: x-large; color: #85000B; line-height: 1.4; max-width: 380px; margin: 0 auto 28px; font-weight: 500; letter-spacing: 0.5px; }
+  .countdown-grid { display: flex; justify-content: center; align-items: flex-start; gap: 0; max-width: 100%; margin: 0 auto; width: 100%; }
+  .countdown-item { flex: 0 0 auto; display: flex; flex-direction: column; align-items: center; gap: 6px; padding: 0 20px; min-width: 0; position: relative; }
+  .countdown-item::after { content: ":"; position: absolute; right: -7px; top: 50%; transform: translateY(-50%); font-family: 'Playfair Display', serif; font-size: xx-large; color: #000; opacity: 0.85; line-height: 1; font-weight: 400; }
+  .countdown-item:last-child::after { content: none; }
+  .countdown-num { font-family: 'Playfair Display', serif; font-size: xxx-large; color: #000; font-weight: 400; line-height: 1; text-align: center; white-space: nowrap; }
+  .countdown-label { font-family: ui-rounded; font-size: small; color: #000; opacity: 0.7; letter-spacing: 0.5px; text-transform: lowercase; text-align: center; white-space: nowrap; }
+
+  .rsvp-section { width: calc(100% + 40px); max-width: calc(100% + 40px); margin: 55px -20px 70px; padding: 0 20px; text-align: center; background: #ffffff; box-sizing: border-box; }
+  .rsvp-card { background: #ffffff; border: 1px solid #E8E4DF; border-radius: 16px; padding: 36px 24px; box-shadow: 0 4px 24px rgba(0,0,0,0.06); text-align: left; max-width: 100%; margin: 0 auto; box-sizing: border-box; }
+  .rsvp-title { font-family: 'Playfair Display', serif; font-size: xx-large; color: #85000B; margin: 0 0 8px; font-weight: normal; }
+  .rsvp-subtitle { font-family: ui-rounded; font-size: large; color: #000; letter-spacing: 0.3px; margin: 0 0 36px; line-height: 1.4; }
+  .rsvp-radio-group { display: flex; flex-direction: column; gap: 12px; margin-bottom: 28px; }
+  .rsvp-radio-label { display: flex; align-items: center; gap: 14px; cursor: pointer; font-family: ui-rounded; font-size: small; color: #666; padding: 16px 18px; border: 2px solid #E8E4DF; border-radius: 12px; transition: all 0.25s ease; background: #fafafa; }
+  .rsvp-radio-label:hover { border-color: #000; background: #fdf0f2; color: #333; }
+  .rsvp-radio-label input[type=radio] { display: none; }
+  .rsvp-radio-dot { width: 22px; height: 22px; border-radius: 50%; border: 2px solid #ddd; flex-shrink: 0; display: flex; align-items: center; justify-content: center; transition: all 0.25s ease; background: #fff; position: relative; }
+  .rsvp-radio-label.selected { border-color: #85000B; background: #fdf0f2; color: #000; font-weight: 600; box-shadow: 0 2px 12px rgba(133,0,11,0.12); }
+  .rsvp-radio-label.selected .rsvp-radio-dot { border-color: #85000B; background: #85000B; }
+  .rsvp-radio-label.selected .rsvp-radio-dot::after { content: ''; display: block; width: 8px; height: 8px; border-radius: 50%; background: #fff; }
+  .rsvp-divider { border: none; border-top: 1px solid #E8E4DF; margin: 4px 0 24px; }
+  .rsvp-field-label { font-family: ui-rounded; font-size: small; color: #999; letter-spacing: 1px; text-transform: uppercase; display: block; margin-bottom: 8px; }
+  .rsvp-input { width: 100%; border: 1px solid #E8E4DF; border-radius: 10px; padding: 13px 16px; font-family: ui-rounded; font-size: small; color: #333; background: #fafafa; box-sizing: border-box; margin-bottom: 20px; outline: none; transition: border-color 0.2s; }
+  .rsvp-input:focus { border-color: #000; background: #fff; }
+  .rsvp-textarea { width: 100%; border: 1px solid #E8E4DF; border-radius: 10px; padding: 13px 16px; font-family: ui-rounded; font-size: small; color: #333; background: #fafafa; box-sizing: border-box; margin-bottom: 28px; outline: none; resize: none; height: 80px; transition: border-color 0.2s; }
+  .rsvp-textarea:focus { border-color: #000; background: #fff; }
+  .rsvp-submit { width: 100%; background: #85000B; color: #fff; border: none; border-radius: 10px; padding: 16px; font-family: 'Playfair Display', serif; font-size: medium; cursor: pointer; transition: background 0.2s; letter-spacing: 0.5px; }
+  .rsvp-submit:hover { background: #5e0c1a; }
+  .rsvp-success { display: none; text-align: center; padding: 20px 0 0; font-family: 'Playfair Display', serif; font-size: medium; color: #000; }
+
+  #sound-btn { position: fixed; top: 16px; left: 16px; z-index: 99999; width: 42px; height: 42px; border-radius: 50%; background: #85000B; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; box-shadow: 0 2px 12px rgba(0,0,0,0.2); transition: background 0.2s; }
+  #sound-btn:hover { background: #6a0009; }
+  #sound-btn svg { width: 20px; height: 20px; fill: #fff; }
+  @keyframes soundPulse { 0%,100% { box-shadow: 0 2px 12px rgba(133,0,11,0.3); } 50% { box-shadow: 0 2px 20px rgba(133,0,11,0.7); } }
+  #sound-btn.playing { animation: soundPulse 2s ease-in-out infinite; }
+
+  @keyframes sealWiggle { 0%,100% { transform: translate(-50%, -50%) rotate(0deg) scale(1); } 25% { transform: translate(-50%, -50%) rotate(-4deg) scale(1.05); } 75% { transform: translate(-50%, -50%) rotate(4deg) scale(1.05); } }
+  .env-click-hint { position: absolute; bottom: 22%; left: 50%; transform: translateX(-50%); color: rgba(255,255,255,0.75); font-family: ui-rounded; font-size: medium; letter-spacing: 2px; text-transform: uppercase; animation: hintFade 2s ease-in-out infinite; pointer-events: none; }
+  @keyframes hintFade { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+
+  @media (max-width: 380px) {
+    .calendar-title { font-size: xx-large; }
+    .elegant-text { font-size: medium; }
+    #SnakeBox { width: 100%; padding: 0 4px; height: 590px; }
+    .wed-event h4 { font-size: medium; }
+    .wed-event span { font-size: small; }
+    .wed-event a.map-link { font-size: x-small; }
+    .rsvp-title { font-size: xx-large; }
+    .rsvp-card { padding: 24px 16px; }
+    .env-seal { width: 100px; height: 100px; }
+    .env-click-hint { font-size: x-small; }
+  }
+  @media (min-width: 381px) and (max-width: 600px) {
+    .calendar-card { max-width: 100%; }
+    #SnakeBox { width: calc(100% - 20px); }
+  }
+  @media (min-width: 601px) and (max-width: 900px) {
+    .content-wrapper { padding-left: 40px; padding-right: 40px; }
+    .calendar-card { max-width: 440px; }
+    #SnakeBox { max-width: 500px; }
+    .final-section { max-width: 500px; }
+    .rsvp-section { max-width: 500px; }
+  }
+  @media (min-width: 901px) {
+    .content-wrapper { padding-left: 60px; padding-right: 60px; }
+    .calendar-card { max-width: 460px; }
+    #SnakeBox { max-width: 520px; height: 640px; }
+    .final-section { max-width: 520px; }
+    .rsvp-section { max-width: 520px; }
+    .elegant-text { font-size: large; max-width: 420px; }
+  }
+  @media (hover: none) and (pointer: coarse) {
+    .rsvp-radio-label { padding: 18px; }
+    .rsvp-submit { padding: 18px; font-size: 17px; }
+    #sound-btn { width: 48px; height: 48px; }
+  }
+
+  #lang-switcher { position: fixed; top: 16px; right: 16px; z-index: 100000; }
+  #page-lang-dropdown { position: relative; display: inline-block; }
+  #page-lang-trigger { display: flex; align-items: center; gap: 7px; background: rgba(133,0,11,0.08); border: 1px solid rgba(133,0,11,0.35); border-radius: 22px; padding: 8px 14px; cursor: pointer; color: #85000B; font-family: ui-rounded; font-size: x-small; letter-spacing: 1.5px; text-transform: uppercase; font-weight: 500; transition: background 0.3s, border-color 0.3s, color 0.3s; user-select: none; white-space: nowrap; backdrop-filter: blur(6px); }
+  #page-lang-trigger:hover { background: rgba(133,0,11,0.15); border-color: rgba(133,0,11,0.6); }
+  #page-lang-trigger svg { flex-shrink: 0; transition: transform 0.25s ease; }
+  #page-lang-trigger svg path { transition: stroke 0.3s ease; }
+  #page-lang-dropdown.open #page-lang-trigger svg { transform: rotate(180deg); }
+  #page-lang-menu { position: absolute; top: calc(100% + 8px); right: 0; min-width: 145px; background: rgba(255,252,249,0.97); border: 1px solid rgba(133,0,11,0.18); border-radius: 12px; overflow: hidden; display: none; flex-direction: column; box-shadow: 0 8px 32px rgba(133,0,11,0.15); backdrop-filter: blur(8px); transition: background 0.3s, border-color 0.3s; }
+  #page-lang-dropdown.open #page-lang-menu { display: flex; }
+  .page-lang-option { display: flex; align-items: center; gap: 10px; padding: 13px 18px; color: rgba(133,0,11,0.7); font-family: ui-rounded; font-size: small; letter-spacing: 1px; text-transform: uppercase; cursor: pointer; transition: background 0.15s, color 0.15s; border: none; background: transparent; width: 100%; text-align: left; }
+  .page-lang-option:hover { background: rgba(133,0,11,0.07); color: #85000B; }
+  .page-lang-option.active { color: #85000B; font-weight: 600; background: rgba(133,0,11,0.05); }
+  .page-lang-option .lang-flag { font-size: large; line-height: 1; }
+  body.envelope-on #page-lang-trigger { background: rgba(255,255,255,0.14); border-color: rgba(255,255,255,0.4); color: #fff; }
+  body.envelope-on #page-lang-trigger:hover { background: rgba(255,255,255,0.22); border-color: rgba(255,255,255,0.7); }
+  body.envelope-on #page-lang-trigger svg path { stroke: #fff; }
+  body.envelope-on #page-lang-menu { background: rgba(60,30,22,0.97); border-color: rgba(255,255,255,0.18); box-shadow: 0 8px 32px rgba(0,0,0,0.4); }
+  body.envelope-on .page-lang-option { color: rgba(255,255,255,0.75); }
+  body.envelope-on .page-lang-option:hover { background: rgba(255,255,255,0.1); color: #fff; }
+  body.envelope-on .page-lang-option.active { color: #fff; background: rgba(255,255,255,0.08); }
+
+
+  /* MAP MODAL */
+  #map-modal {
+    position: fixed; inset: 0; background: rgba(0,0,0,0.65);
+    z-index: 200000; display: none; align-items: center; justify-content: center;
+    padding: 16px; opacity: 0; transition: opacity 0.25s ease;
+  }
+  #map-modal.open { display: flex; opacity: 1; }
+  .map-modal-card {
+    background: #fff; border-radius: 18px; width: 100%; max-width: 520px;
+    max-height: 88vh; display: flex; flex-direction: column; overflow: hidden;
+    box-shadow: 0 18px 56px rgba(0,0,0,0.45);
+    transform: translateY(20px); transition: transform 0.3s cubic-bezier(.22,.61,.36,1);
+  }
+  #map-modal.open .map-modal-card { transform: translateY(0); }
+  .map-modal-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 16px 18px 14px; border-bottom: 1px solid #f0eae3;
+  }
+  .map-modal-title { font-family: 'Playfair Display', serif; font-size: large; color: #85000B; margin: 0; font-weight: 500; }
+  .map-modal-address { font-family: ui-rounded; font-size: small; color: #666; margin: 4px 0 0; line-height: 1.35; }
+  .map-modal-address:empty { display: none; }
+  .map-modal-close {
+    background: none; border: none; cursor: pointer; padding: 4px 10px;
+    font-size: x-large; color: #999; line-height: 1; transition: color 0.15s;
+  }
+  .map-modal-close:hover { color: #85000B; }
+  .map-modal-iframe { width: 100%; height: clamp(280px, 55vh, 460px); border: none; display: block; background: #f5f5f5; }
+  .map-modal-footer { padding: 14px 18px 18px; text-align: center; }
+  .map-modal-open {
+    display: inline-flex; align-items: center; gap: 8px;
+    background: #85000B; color: #fff; padding: 12px 26px;
+    border-radius: 8px; text-decoration: none;
+    font-family: ui-rounded; font-size: small; letter-spacing: 1.5px;
+    text-transform: uppercase; transition: background 0.2s;
+  }
+  .map-modal-open:hover { background: #6a0009; }
+  .map-modal-open svg { width: 14px; height: 14px; }
+
+  .word-anim .reveal-word { display: inline-block; opacity: 0; transform: translateX(-10px) translateY(2px); animation: revealWord 0.55s cubic-bezier(.22,.61,.36,1) forwards; }
+  @keyframes revealWord { to { opacity: 1; transform: translateX(0) translateY(0); } }
+</style>
+
+<audio id="bg-audio" loop preload="auto">
+  <source src="Arno%20Babajanyan%20-%20Elegy%20in%20Commemoration%20of%20Aram%20Xachaturyan.mp3" type="audio/mpeg">
+</audio>
+
+<button id="sound-btn" title="Toggle music">
+  <svg id="icon-sound-on" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display:none"><path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/></svg>
+  <svg id="icon-sound-off" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" style="display:block"><path d="M16.5 12c0-1.77-1.02-3.29-2.5-4.03v2.21l2.45 2.45c.03-.2.05-.41.05-.63zm2.5 0c0 .94-.2 1.82-.54 2.64l1.51 1.51C20.63 14.91 21 13.5 21 12c0-4.28-2.99-7.86-7-8.77v2.06c2.89.86 5 3.54 5 6.71zM4.27 3L3 4.27 7.73 9H3v6h4l5 5v-6.73l4.25 4.25c-.67.52-1.42.93-2.25 1.18v2.06c1.38-.31 2.63-.95 3.69-1.81L19.73 21 21 19.73l-9-9L4.27 3zM12 4L9.91 6.09 12 8.18V4z"/></svg>
+</button>
+
+<div id="lang-switcher">
+  <div id="page-lang-dropdown">
+    <div id="page-lang-trigger" onclick="togglePageLang(event)">
+      <span id="page-lang-label">🇦🇲 ՀԱՅ</span>
+      <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 4L6 8L10 4" stroke="#85000B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+    </div>
+    <div id="page-lang-menu">
+      <button class="page-lang-option active" data-lang="hy" onclick="pageSetLang('hy','🇦🇲 ՀԱՅ', this)"><span class="lang-flag">🇦🇲</span> Հայերեն</button>
+      <button class="page-lang-option" data-lang="ru" onclick="pageSetLang('ru','🇷🇺 РУС', this)"><span class="lang-flag">🇷🇺</span> Русский</button>
+      <button class="page-lang-option" data-lang="en" onclick="pageSetLang('en','🇬🇧 ENG', this)"><span class="lang-flag">🇬🇧</span> English</button>
+    </div>
+  </div>
+</div>
+
+<div id="EnvelopeGate" onclick="openMe()">
+  <div class="env-part env-top"><img src="envelope%20top.png" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+  <img src="seal.png" class="env-seal" alt="A&amp;M Seal">
+  <div class="env-part env-bottom"><img src="envelope%20bottom.png" style="width:100%;height:100%;object-fit:cover;display:block;"></div>
+  <div class="env-click-hint" id="env-hint">բացել նամակը</div>
+</div>
+
+<div class="content-wrapper">
+  <div class="couple-hero"><img src="hero.png" alt="The Couple"></div>
+  <h1 class="couple-names" id="couple-names">Ավետիք և Մանան</h1>
+  <span class="couple-names-divider"></span>
+  <p class="intro-greeting" id="intro-greeting">Հարգելի հյուրեր՝</p>
+  <p class="elegant-text" id="intro-text">Սիրով հրավիրում ենք Ձեզ ներկա գտնվելու մեր հարսանյաց արարողությանը:<br>Խնդրում ենք ծանոթանալ օրվա ծրագրին և հաստատել Ձեր ներկայությունը մինչև հուլիսի 25-ը:</p>
+
+  <div class="calendar-card">
+    <h3 class="calendar-title" id="month-title">Օգոստոս</h3>
+    <div class="calendar-grid">
+      <span class="cal-day">31</span><span class="cal-day">1</span><span class="cal-day save-the-date">2</span><span class="cal-day">3</span><span class="cal-day">4</span>
+    </div>
+  </div>
+
+  <h3 class="timeline-title" id="schedule-title">Ժամանակացույց</h3>
+
+  <div id="SnakeBox">
+    <div id="heart-dot"><svg viewBox="0 0 24 24" fill="#85000B" xmlns="http://www.w3.org/2000/svg"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg></div>
+    <svg id="snakeSvg">
+      <path id="snakePath" fill="none" stroke="#d4a0a8" stroke-width="2" stroke-dasharray="5,5"/>
+      <path id="connPath" fill="none" stroke="#d4a0a8" stroke-width="2" stroke-dasharray="5,5"/>
+    </svg>
+
+    <div class="wed-event left" style="top:20px;">
+      <img src="հարսի%20տուն.svg" alt="Bride's House">
+      <span>12:00</span>
+      <h4 id="event1-title">Հարսի տուն</h4>
+      <a class="map-link" href="https://maps.app.goo.gl/aDBAdATyZ1Eb9LbE8" data-map-query="Ձորաղբյուր 3-րդ թաղամաս 11" data-map-name="Հարսի տուն" data-map-address="Ձորաղբյուր, 3-րդ թաղամաս, տուն 11" onclick="openMap(event,this)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="#85000B"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span class="map-text" id="map-btn-1">Քարտեզ</span>
+      </a>
+    </div>
+
+    <div class="wed-event right" style="top:170px;">
+      <img src="եկեղեցի.svg" alt="Church">
+      <span>15:00</span>
+      <h4 id="event2-title">Սուրբ Սարգիս եկեղեցի</h4>
+      <a class="map-link" href="https://maps.app.goo.gl/HpdUy8jRA6qwzskU6" data-map-query="Saint Sargis Church Yerevan" data-map-name="Սուրբ Սարգիս եկեղեցի" data-map-address="Երևան, Սուրբ Սարգիս եկեղեցի" onclick="openMap(event,this)">
+        <svg xmlns="http://www.w3.org/2000/svg" width="13" height="13" viewBox="0 0 24 24" fill="#85000B"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span class="map-text" id="map-btn-2">Քարտեզ</span>
+      </a>
+    </div>
+
+    <div class="wed-event left" style="top:330px;">
+      <img src="դիմավորում.svg" alt="Guests">
+      <span>17:15</span>
+      <h4 id="event3-title">Հյուրերի դիմավորում</h4>
+    </div>
+  </div>
+    <div class="location-section">
+    <div class="location-heart">
+      <svg viewBox="0 0 24 24" fill="#85000B" xmlns="http://www.w3.org/2000/svg"><path d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"/></svg>
+    </div>
+    <div class="location-frame-wrap">
+      <img src="restaurant%20frame.svg" class="location-frame-img" alt="">
+      <div class="location-content">
+        <p class="location-title" id="location-title">Խնջույք</p>
+        <p class="location-time">17:30</p>
+        <p class="location-name" id="location-name">Ավալոն ռեստորանային համալիր</p>
+        <a href="https://maps.app.goo.gl/uhddyTDcLsjMg4re9" target="_blank" class="location-map-btn" id="location-map-btn" data-map-query="Avalon Restaurant Complex Yerevan" data-map-name="Ավալոն ռեստորանային համալիր" data-map-address="Երևան, Ավալոն ռեստորանային համալիր" onclick="openMap(event,this)">Քարտեզ</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="countdown-section">
+    <p class="countdown-title" id="countdown-title">Հարսանիքին մնացել է ....</p>
+    <div class="countdown-grid">
+      <div class="countdown-item"><span class="countdown-num" id="cd-days">00</span><span class="countdown-label" id="cd-label-days">Օր</span></div>
+      <div class="countdown-item"><span class="countdown-num" id="cd-hours">00</span><span class="countdown-label" id="cd-label-hours">Ժամ</span></div>
+      <div class="countdown-item"><span class="countdown-num" id="cd-mins">00</span><span class="countdown-label" id="cd-label-mins">Րոպե</span></div>
+      <div class="countdown-item"><span class="countdown-num" id="cd-secs">00</span><span class="countdown-label" id="cd-label-secs">Վայրկյան</span></div>
+    </div>
+  </div>
+
+  <div class="final-section">
+    <img src="hero2.png" class="final-img" alt="">
+  </div>
+
+  <div class="rsvp-section">
+    <p class="rsvp-subtitle" id="rsvp-deadline">Խնդրում ենք հաստատել Ձեր ներկայությունը մինչև Հուլիսի 25-ը</p>
+    <div class="rsvp-card">
+      <form id="rsvpForm" action="https://formsubmit.co/avet2006sargsyan@gmail.com" method="POST">
+        <input type="hidden" name="_subject" value="New Wedding RSVP — Avetiq & Manan">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_autoresponse" value="Thank you for your RSVP. We will see you on August 2nd! — Avetiq & Manan">
+        <input type="text" name="_honey" style="display:none" tabindex="-1" autocomplete="off">
+        <div class="rsvp-radio-group">
+          <label class="rsvp-radio-label" onclick="rsvpSelect(this)">
+            <input type="radio" name="attendance" value="Այո, կգամ" required>
+            <span class="rsvp-radio-dot"></span><span id="rsvp-yes-text">Այո, կգամ</span>
+          </label>
+          <label class="rsvp-radio-label" onclick="rsvpSelect(this)">
+            <input type="radio" name="attendance" value="Ցավոք, չեմ կարողանա ներկա լինել։">
+            <span class="rsvp-radio-dot"></span><span id="rsvp-no-text">Ցավոք, չեմ կարողանա ներկա լինել։</span>
+          </label>
+        </div>
+        <hr class="rsvp-divider">
+        <label class="rsvp-field-label" id="rsvp-name-label">Անուն և Ազգանուն</label>
+        <input class="rsvp-input" type="text" name="name" id="rsvp-name-input" placeholder="Ձեր անունը" required>
+        <label class="rsvp-field-label" id="rsvp-guests-label">Հյուրեր</label>
+        <textarea class="rsvp-textarea" name="guests" id="rsvp-guests-input" placeholder="եթե կգաք ուղեկցորդով կամ ընտանիքով, խնդրում ենք նշել"></textarea>
+        <button type="submit" class="rsvp-submit" id="rsvp-submit-btn">Ուղարկել հաստատումը</button>
+      </form>
+      <div class="rsvp-success" id="rsvpSuccess">
+        <span id="rsvp-success-text">Շնորհակալություն ձեր պատասխանի համար։ Անհամբեր սպասում ենք այս հատուկ օրը ձեզ հետ կիսելուն։</span>
+      </div>
+    </div>
+  </div>
+
+  <div style="text-align:center; padding: 40px 20px 60px; margin-top: 20px;">
+    <a href="https://www.instagram.com/themoment_invitation" target="_blank" style="display:inline-flex; align-items:center; gap:8px; text-decoration:none; color:#000; opacity:0.6;">
+      <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#85000B" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="#85000B" stroke="none"/>
+      </svg>
+      <span style="font-family:ui-rounded; font-size:13px; letter-spacing:1.5px; text-transform:uppercase;">made by The Moment Invitation</span>
+    </a>
+  </div>
+
+<!-- MAP MODAL -->
+<div id="map-modal" onclick="if(event.target===this)closeMapModal()">
+  <div class="map-modal-card">
+    <div class="map-modal-header">
+      <div><h4 class="map-modal-title" id="map-modal-title">Map</h4><p class="map-modal-address" id="map-modal-address"></p></div>
+      <button class="map-modal-close" onclick="closeMapModal()" aria-label="Close">&times;</button>
+    </div>
+    <iframe id="map-modal-iframe" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+    <div class="map-modal-footer">
+      <a id="map-modal-open" href="#" target="_blank" rel="noopener" class="map-modal-open">
+        <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span id="map-modal-open-label">Open in Google Maps</span>
+      </a>
+    </div>
+  </div>
+</div>
+
+</div>
+
+<script>
+// Always open the page at the top on load/refresh (disable browser's scroll restoration)
+if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+window.scrollTo(0, 0);
+window.addEventListener('beforeunload', function(){ window.scrollTo(0, 0); });
+window.addEventListener('load', function(){ window.scrollTo(0, 0); });
+
+var STRINGS = {
+  hy: {
+    coupleNames: 'Ավետիք և Մանան', envHint: 'բացել նամակը', introGreeting: 'Հարգելի հյուրեր՝',
+    introText: 'Սիրով հրավիրում ենք Ձեզ ներկա գտնվելու մեր հարսանյաց արարողությանը:<br>Խնդրում ենք ծանոթանալ օրվա ծրագրին և հաստատել Ձեր ներկայությունը մինչև հուլիսի 25-ը:',
+    monthTitle: 'Օգոստոս', scheduleTitle: 'Ժամանակացույց',
+    event1: 'Հարսի տուն', event2: 'Սուրբ Սարգիս եկեղեցի', event3: 'Հյուրերի դիմավորում', locationTitle: 'Խնջույք', mapBtn: 'Քարտեզ',
+    countdownTitle: 'Հարսանիքին մնացել է ....', cdDays: 'Օր', cdHours: 'Ժամ', cdMins: 'Րոպե', cdSecs: 'Վայրկյան',
+    rsvpDeadline: 'Խնդրում ենք հաստատել Ձեր ներկայությունը մինչև Հուլիսի 25-ը',
+    rsvpYes: 'Այո, կգամ', rsvpNo: 'Ցավոք, չեմ կարողանա ներկա լինել։',
+    rsvpNameLabel: 'Անուն և Ազգանուն', rsvpNamePh: 'Ձեր անունը',
+    rsvpGuestsLabel: 'Հյուրեր', rsvpGuestsPh: 'եթե կգաք ուղեկցորդով կամ ընտանիքով, խնդրում ենք նշել',
+    rsvpSubmit: 'Ուղարկել հաստատումը',
+    rsvpSuccess: 'Շնորհակալություն ձեր պատասխանի համար։ Անհամբեր սպասում ենք այս հատուկ օրը ձեզ հետ կիսելուն։',
+    locationName: 'Ավալոն ռեստորանային համալիր', locationAddress: 'Երևան, Աբովյան 1'
+  },
+  ru: {
+    coupleNames: 'Аветик и Манан', envHint: 'открыть письмо', introGreeting: 'Дорогие гости!',
+    introText: 'С любовью приглашаем вас разделить с нами радость нашего свадебного торжества.<br>Ознакомьтесь с программой и подтвердите своё присутствие до 25 июля',
+    monthTitle: 'Август', scheduleTitle: 'Программа',
+    event1: 'Дом невесты', event2: 'Церковь Св. Саркиса', event3: 'Встреча гостей', locationTitle: 'Банкет', mapBtn: 'Карта',
+    countdownTitle: 'До свадьбы осталось ....', cdDays: 'дней', cdHours: 'часов', cdMins: 'минут', cdSecs: 'секунд',
+    rsvpDeadline: 'Просим подтвердить своё присутствие до 25 июля',
+    rsvpYes: 'Да, я приду', rsvpNo: 'К сожалению, не смогу присутствовать',
+    rsvpNameLabel: 'Имя и Фамилия', rsvpNamePh: 'Ваше имя',
+    rsvpGuestsLabel: 'Гости', rsvpGuestsPh: 'если придёте с партнёром или семьёй',
+    rsvpSubmit: 'Отправить подтверждение',
+    rsvpSuccess: 'Спасибо за ваш ответ! Мы очень ценим это и с нетерпением ждём этого особого дня вместе с вами.',
+    locationName: 'Ресторан Авалон', locationAddress: 'Ереван, Абовян 1'
+  },
+  en: {
+    coupleNames: 'Avetik & Manan', envHint: 'open the letter', introGreeting: 'Dear guests!',
+    introText: 'We joyfully invite you to celebrate our wedding with us.<br>Please review the programme and confirm your attendance by July 25th',
+    monthTitle: 'August', scheduleTitle: 'Schedule',
+    event1: "Bride's House", event2: 'Saint Sargis Church', event3: 'Guest Reception', locationTitle: 'Banquet', mapBtn: 'Map',
+    countdownTitle: 'Counting down to the wedding....', cdDays: 'days', cdHours: 'hours', cdMins: 'mins', cdSecs: 'secs',
+    rsvpDeadline: 'Please confirm your attendance by July 25th',
+    rsvpYes: 'Yes, I will attend', rsvpNo: 'Unfortunately, I cannot attend',
+    rsvpNameLabel: 'First & Last Name', rsvpNamePh: 'Your name',
+    rsvpGuestsLabel: 'Guests', rsvpGuestsPh: 'if attending with a partner or family, please mention',
+    rsvpSubmit: 'Send confirmation',
+    rsvpSuccess: 'Thank you for your response! We truly appreciate it and cannot wait to share this special day with you.',
+    locationName: 'Avalon Restaurant Complex', locationAddress: 'Yerevan, Abovyan 1'
+  }
+};
+var currentLang = 'hy';
+function _markEnvelopeOn(){ if (document.body) document.body.classList.add('envelope-on'); }
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', _markEnvelopeOn); else _markEnvelopeOn();
+function _set(id, val, isHtml) { var el = document.getElementById(id); if (!el) return; if (isHtml) el.innerHTML = val; else el.textContent = val; }
+function applyLang(lang) {
+  currentLang = lang;
+  document.documentElement.lang = lang;
+  var s = STRINGS[lang];
+  var ids = ['couple-names','env-hint','intro-greeting','intro-text','month-title','schedule-title','event1-title','event2-title','event3-title','map-btn-1','map-btn-2','countdown-title','cd-label-days','cd-label-hours','cd-label-mins','cd-label-secs','rsvp-deadline','rsvp-yes-text','rsvp-no-text','rsvp-name-label','rsvp-guests-label','rsvp-submit-btn','rsvp-success-text','location-title','location-name','location-map-btn'];
+  ids.forEach(function(id){ var el = document.getElementById(id); if (el) el.style.opacity = '0'; });
+  setTimeout(function() {
+    _set('couple-names', s.coupleNames); _set('env-hint', s.envHint);
+    _set('intro-greeting', s.introGreeting); _set('intro-text', s.introText, true);
+    _set('month-title', s.monthTitle); _set('schedule-title', s.scheduleTitle);
+    _set('event1-title', s.event1); _set('event2-title', s.event2); _set('event3-title', s.event3);
+    _set('map-btn-1', s.mapBtn); _set('map-btn-2', s.mapBtn);
+    _set('countdown-title', s.countdownTitle);
+    _set('cd-label-days', s.cdDays); _set('cd-label-hours', s.cdHours); _set('cd-label-mins', s.cdMins); _set('cd-label-secs', s.cdSecs);
+    _set('rsvp-deadline', s.rsvpDeadline); _set('rsvp-yes-text', s.rsvpYes); _set('rsvp-no-text', s.rsvpNo);
+    _set('rsvp-name-label', s.rsvpNameLabel); _set('rsvp-guests-label', s.rsvpGuestsLabel);
+    _set('rsvp-submit-btn', s.rsvpSubmit); _set('rsvp-success-text', s.rsvpSuccess);
+    _set('location-title', s.locationTitle); _set('location-name', s.locationName); _set('location-map-btn', s.mapBtn);
+    var nameInput = document.getElementById('rsvp-name-input'); if (nameInput) nameInput.placeholder = s.rsvpNamePh;
+    var guestsInput = document.getElementById('rsvp-guests-input'); if (guestsInput) guestsInput.placeholder = s.rsvpGuestsPh;
+    ids.forEach(function(id){ var el = document.getElementById(id); if (el) el.style.opacity = '1'; });
+  }, 150);
+}
+function togglePageLang(e) { if (e) e.stopPropagation(); document.getElementById('page-lang-dropdown').classList.toggle('open'); }
+function pageSetLang(lang, label, optionEl) {
+  document.getElementById('page-lang-label').textContent = label;
+  document.querySelectorAll('.page-lang-option').forEach(function(o){ o.classList.remove('active'); });
+  optionEl.classList.add('active');
+  document.getElementById('page-lang-dropdown').classList.remove('open');
+  if (lang !== currentLang) applyLang(lang);
+}
+
+function _wrapWordsIn(el, baseDelay) {
+  if (!el || el.dataset.wordsWrapped === '1') return baseDelay;
+  var raw = el.innerHTML;
+  raw = raw.replace(/<br\s*\/?>/gi, ' \u0001BR\u0001 ');
+  var tokens = raw.split(/\s+/).filter(Boolean);
+  el.innerHTML = tokens.map(function(t){
+    if (t === '\u0001BR\u0001') return '<br>';
+    var d = (baseDelay++ * 0.07).toFixed(2);
+    return '<span class="reveal-word" style="animation-delay:' + d + 's">' + t + '</span>';
+  }).join(' ');
+  el.dataset.wordsWrapped = '1';
+  return baseDelay;
+}
+function runWordReveal() {
+  document.querySelectorAll('[data-words-wrapped="1"]').forEach(function(el){ el.dataset.wordsWrapped = ''; });
+  document.body.classList.add('word-anim');
+  var idx = 0;
+  ['couple-names','intro-greeting','intro-text'].forEach(function(id){ idx = _wrapWordsIn(document.getElementById(id), idx); });
+}
+var _origApplyLang = applyLang;
+applyLang = function(lang){ _origApplyLang(lang); setTimeout(function(){ if (document.body.classList.contains('word-anim')) runWordReveal(); }, 200); };
+
+document.addEventListener('click', function(e) {
+  var pageDd = document.getElementById('page-lang-dropdown');
+  if (pageDd && !pageDd.contains(e.target)) pageDd.classList.remove('open');
+});
+
+function openMap(e, el) {
+  e.preventDefault();
+  var query = el.dataset.mapQuery || '';
+  var name  = el.dataset.mapName  || 'Map';
+  var url   = el.getAttribute('href');
+  // Localized "Open in Google Maps" label
+  var openLabels = { hy: 'Բացել Google Քարտեզում', ru: 'Открыть в Google Картах', en: 'Open in Google Maps' };
+  document.getElementById('map-modal-title').textContent = name;
+  document.getElementById('map-modal-address').textContent = el.dataset.mapAddress || '';
+  document.getElementById('map-modal-open').href = url;
+  document.getElementById('map-modal-open-label').textContent = openLabels[currentLang] || openLabels.en;
+  // Use Google Maps' free embed URL (no API key required)
+  document.getElementById('map-modal-iframe').src =
+    'https://maps.google.com/maps?q=' + encodeURIComponent(query) + '&hl=' + currentLang + '&t=&z=16&ie=UTF8&iwloc=&output=embed';
+  document.getElementById('map-modal').classList.add('open');
+  document.body.style.overflow = 'hidden';
+}
+function closeMapModal() {
+  document.getElementById('map-modal').classList.remove('open');
+  document.body.style.overflow = '';
+  // Free the iframe so it stops loading/playing in background
+  setTimeout(function(){ document.getElementById('map-modal-iframe').src = ''; }, 300);
+}
+// ESC key closes the modal
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeMapModal();
+});
+
+window.addEventListener('pageshow', function(event) {
+  if (event.persisted || (window.performance && window.performance.navigation.type === 2)) {
+    var env = document.getElementById('EnvelopeGate');
+    if (env) { env.style.display = 'none'; }
+    document.getElementById('sound-btn').style.display = 'flex';
+    document.body.classList.remove('envelope-on');
+    runWordReveal();
+  }
+});
+
+(function() {
+  var box = document.getElementById('SnakeBox'), svg = document.getElementById('snakeSvg');
+  var snakePath = document.getElementById('snakePath'), connPath = document.getElementById('connPath');
+  var heart = document.getElementById('heart-dot');
+  var SNAKE_H = 500, CONN_H = 0, TOTAL_H = SNAKE_H + CONN_H, built = false;
+  function buildPaths() {
+    var W = box.getBoundingClientRect().width || Math.min(window.innerWidth - 48, 450);
+    svg.setAttribute('width', W); svg.setAttribute('height', TOTAL_H);
+    svg.setAttribute('viewBox', '0 0 ' + W + ' ' + TOTAL_H);
+    var cx = W / 2, s = W * 0.22;
+    snakePath.setAttribute('d',
+      'M ' + cx + ' 0 ' +
+      'Q ' + (cx+s) + ' ' + (SNAKE_H*0.17) + ' ' + cx + ' ' + (SNAKE_H*0.33) + ' ' +
+      'Q ' + (cx-s) + ' ' + (SNAKE_H*0.50) + ' ' + cx + ' ' + (SNAKE_H*0.67) + ' ' +
+      'Q ' + (cx+s) + ' ' + (SNAKE_H*0.83) + ' ' + cx + ' ' + SNAKE_H);
+    connPath.setAttribute('d', 'M ' + cx + ' ' + SNAKE_H + ' L ' + cx + ' ' + TOTAL_H);
+    built = true;
+  }
+  function moveHeart() {
+    if (!built) buildPaths();
+    var rect = box.getBoundingClientRect();
+    var progress = (window.innerHeight / 2 - rect.top) / rect.height;
+    if (progress < 0) progress = 0; if (progress > 1) progress = 1;
+    var sLen = snakePath.getTotalLength(), cLen = connPath.getTotalLength();
+    var dist = progress * (sLen + cLen);
+    var pt = dist <= sLen ? snakePath.getPointAtLength(dist) : connPath.getPointAtLength(dist - sLen);
+    heart.style.left = pt.x + 'px'; heart.style.top = pt.y + 'px';
+    heart.style.opacity = progress >= 0.97 ? '0' : '1';
+  }
+  window.addEventListener('scroll', moveHeart, { passive: true });
+  window.addEventListener('resize', function() { built = false; buildPaths(); moveHeart(); });
+  function tryInit() { if (box.getBoundingClientRect().width > 10) { buildPaths(); moveHeart(); } else { requestAnimationFrame(tryInit); } }
+  if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', tryInit); else tryInit();
+  window.addEventListener('load', function() { built = false; buildPaths(); moveHeart(); });
+})();
+
+(function() {
+  var target = new Date('2026-08-02T14:00:00');
+  function pad(n) { return n < 10 ? '0' + n : '' + n; }
+  function tick() {
+    var diff = target - new Date(); if (diff < 0) diff = 0;
+    document.getElementById('cd-days').textContent = pad(Math.floor(diff / 86400000));
+    document.getElementById('cd-hours').textContent = pad(Math.floor((diff % 86400000) / 3600000));
+    document.getElementById('cd-mins').textContent = pad(Math.floor((diff % 3600000) / 60000));
+    document.getElementById('cd-secs').textContent = pad(Math.floor((diff % 60000) / 1000));
+  }
+  tick(); setInterval(tick, 1000);
+})();
+
+function rsvpSelect(el) {
+  document.querySelectorAll('.rsvp-radio-label').forEach(function(l) { l.classList.remove('selected'); });
+  el.classList.add('selected');
+  el.querySelector('input[type=radio]').checked = true;
+}
+var rsvpForm = document.getElementById('rsvpForm');
+if (rsvpForm) {
+  rsvpForm.addEventListener('submit', function(e) {
+    e.preventDefault();
+    fetch('https://formsubmit.co/ajax/avet2006sargsyan@gmail.com', {
+      method: 'POST', body: new FormData(rsvpForm), headers: { 'Accept': 'application/json' }
+    }).then(function(res) {
+      if (res.ok) {
+        rsvpForm.style.display = 'none';
+        var s = document.getElementById('rsvpSuccess');
+        s.style.display = 'block';
+        s.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      } else { alert('Something went wrong. Please try again.'); }
+    }).catch(function() { alert('Something went wrong. Please check your connection and try again.'); });
+  });
+}
+
+var _bgAudio = document.getElementById('bg-audio'), _soundBtn = document.getElementById('sound-btn');
+var _iconOn = document.getElementById('icon-sound-on'), _iconOff = document.getElementById('icon-sound-off');
+var _playing = false;
+function _setPlaying(val) {
+  _playing = val;
+  if (val) { _soundBtn.classList.add('playing'); _iconOn.style.display = 'block'; _iconOff.style.display = 'none'; }
+  else { _soundBtn.classList.remove('playing'); _iconOn.style.display = 'none'; _iconOff.style.display = 'block'; }
+}
+function _playMusic() { _bgAudio.volume = 0.5; _bgAudio.play().then(function() { _setPlaying(true); }).catch(function(){}); }
+_soundBtn.addEventListener('click', function(e) {
+  e.stopPropagation();
+  if (_playing) { _bgAudio.pause(); _setPlaying(false); } else { _playMusic(); }
+});
+
+window.openMe = function() {
+  var env = document.getElementById('EnvelopeGate');
+  env.classList.add('is-open');
+  setTimeout(function() { env.style.background = 'transparent'; }, 400);
+  setTimeout(function() { env.style.display = 'none'; }, 1100);
+  setTimeout(function() {
+    _soundBtn.style.display = 'flex';
+    document.body.classList.remove('envelope-on');
+    runWordReveal();
+  }, 1200);
+  _bgAudio.volume = 0.5;
+  _bgAudio.play().then(function() { _setPlaying(true); }).catch(function(){});
+};
+</script>
+</html>
