@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jack's First Birthday</title>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Playfair+Display:ital,wght@0,400;0,500;1,400&display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    background: #EDE8E0;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 60px 16px 80px;
+    font-family: 'Cormorant Garamond', serif;
+  }
+
+  .card {
+    background: #FAF6F0;
+    width: 100%;
+    max-width: 480px;
+    border-radius: 4px;
+    box-shadow: 0 8px 60px rgba(0,0,0,0.10), 0 2px 12px rgba(0,0,0,0.06);
+    position: relative;
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* ── TOP DECORATION ── */
+  .top-deco {
+    position: relative;
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    overflow: visible;
+  }
+
+  .cloud-left {
+    position: absolute;
+    top: 40px;
+    left: -10px;
+    width: 52%;
+    opacity: 0.82;
+    pointer-events: none;
+  }
+
+  .cloud-right {
+    position: absolute;
+    top: 55px;
+    right: -10px;
+    width: 44%;
+    opacity: 0.70;
+    pointer-events: none;
+    transform: scaleX(-1);
+  }
+
+  .hot-balloon {
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 38%;
+    max-width: 165px;
+    pointer-events: none;
+    z-index: 2;
+    filter: drop-shadow(0 8px 18px rgba(120,140,150,0.18));
+  }
+
+  /* ── TEXT BODY ── */
+  .text-body {
+    text-align: center;
+    padding: 10px 32px 0;
+    width: 100%;
+  }
+
+  .label-join {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #9A9080;
+    letter-spacing: 2.5px;
+    margin-bottom: 16px;
+  }
+
+  .name {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: clamp(52px, 14vw, 64px);
+    font-weight: 400;
+    color: #A7BCC0;
+    letter-spacing: 10px;
+    line-height: 1;
+    margin-bottom: 14px;
+  }
+
+  .subtitle {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: clamp(26px, 7vw, 34px);
+    font-weight: 500;
+    font-style: italic;
+    color: #4B4B4B;
+    letter-spacing: 0.5px;
+    margin-bottom: 26px;
+  }
+
+  .divider {
+    display: block;
+    width: 56px;
+    height: 1px;
+    background: linear-gradient(to right, transparent, #C9A96E, transparent);
+    margin: 0 auto 22px;
+  }
+
+  .event-title {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 19px;
+    font-weight: 500;
+    color: #A7BCC0;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    margin-bottom: 14px;
+  }
+
+  .details {
+    display: block;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 17px;
+    font-weight: 400;
+    color: #6A6460;
+    letter-spacing: 1.2px;
+    line-height: 1.8;
+    margin-bottom: 12px;
+  }
+
+  .details .sep { color: #C9A96E; margin: 0 10px; }
+
+  /* ── BOTTOM ILLUSTRATION ── */
+  .bottom-illo {
+    position: relative;
+    width: 100%;
+    height: 260px;
+    margin-top: 16px;
+    overflow: visible;
+    border-radius: 0 0 4px 4px;
+  }
+
+  .bear-car {
+    position: absolute;
+    bottom: 0;
+    right: -2%;
+    width: 70%;
+    mix-blend-mode: multiply;
+    pointer-events: none;
+  }
+
+  .balloon-bouquet {
+    position: absolute;
+    bottom: 32px;
+    left: 2%;
+    width: 46%;
+    pointer-events: none;
+    mix-blend-mode: multiply;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+
+  <!-- TOP DECORATION -->
+  <div class="top-deco">
+    <img class="cloud-left"  src="big cloude.png" alt="">
+    <img class="cloud-right" src="cloude.png"     alt="">
+    <img class="hot-balloon" src="image 1 .png"   alt="">
+  </div>
+
+  <!-- TEXT -->
+  <div class="text-body">
+    <span class="label-join">Please Join Us To Celebrate</span>
+    <span class="name">JACK</span>
+    <span class="subtitle">Is Turning One!</span>
+    <span class="divider"></span>
+    <span class="event-title">Jack's First Birthday</span>
+    <span class="details">
+      19 August 2026
+      <span class="sep">|</span>
+      1 Anywhere Street
+      <span class="sep">|</span>
+      16:00
+    </span>
+  </div>
+
+  <!-- BOTTOM ILLUSTRATION -->
+  <div class="bottom-illo">
+    <img class="balloon-bouquet" src="baloon.png" alt="">
+    <img class="bear-car"        src="bear.png"   alt="">
+  </div>
+
+</div>
+</body>
+</html>
